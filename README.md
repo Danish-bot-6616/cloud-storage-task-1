@@ -25,4 +25,17 @@ https://danish-cloud-task1.s3.ap-south-1.amazonaws.com/task1.txt.txt
 
 ---
 
-### ✔️ Bucket Policy (Optional Reference)
+### ✔️ Bucket Policy
+{
+"Version": "2012-10-17",
+"Statement": [
+{
+"Sid": "PublicRead",
+"Effect": "Allow",
+"Principal": "",
+"Action": "s3:GetObject",
+"Resource": "arn:aws:s3:::danish-cloud-task1/"
+}
+]
+}
+
